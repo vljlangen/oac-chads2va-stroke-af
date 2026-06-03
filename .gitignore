@@ -1,17 +1,21 @@
 # Project data (not shared in repo)
-IncidentCohort.sav
+cohort_baseline.sav
+oac_prescription_periods.rds
 *.sav
+*.rds
 
-# Generated outputs
-Combined_MRR_Figures.jpg
-Combined_MRR_Figures.pdf
-ARDtype1_Figure.jpg
-VKA_NOAC_IRR_Figures.jpg
-VKA_NOAC_IRR_Figures.pdf
-RateTableCHADSVA.html
-RateTableIS_yesANDnoAK.html
-AdjustedAnalysisCHADSVA.html
-AdjustedAnalysisCHADSVANOACVKA.html
+# Generated outputs (from OAC_CHA2DS2VA.R)
+HR_by_CHA2DS2_VA_any_OAC.pdf
+HR_by_CHA2DS2_VA_VKA_DOAC.pdf
+HR_by_CHA2DS2_VA_any_OAC.csv
+HR_by_CHA2DS2_VA_VKA_DOAC.csv
+stroke_rates_by_chadsva_oac_status.html
+stroke_rates_by_chadsva_oac_status.csv
+rate_based_10y_NNT_by_CHADSVA.html
+rate_based_10y_NNT_by_CHADSVA.csv
+interaction_pvalues.csv
+unadjusted_adjusted_HRs_by_CHA2DS2_VA_OAC_VKA_DOAC.html
+unadjusted_adjusted_HRs_by_CHA2DS2_VA_OAC_VKA_DOAC.csv
 
 # .DS_Store
 .DS_Store
